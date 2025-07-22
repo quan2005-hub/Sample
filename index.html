@@ -2,21 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Simple Semantic Web Page</title>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
 
-    <p>Xin chào!<br>Chào mừng bạn đến với website của tôi.</p>
+    <header>
+        <h1>Welcome to My Web Page</h1>
+    </header>
 
-    <p>Tôi là sinh viên FPT</p>
+    <main>
+        <section>
+            <h2>My Favorite Activities</h2>
+            <ul>
+                <li>Reading books</li>
+                <li>Exploring nature</li>
+                <li>Coding small projects</li>
+            </ul>
+        </section>
 
-    <button onclick="sayHello()">Click me</button>
+        <section>
+            <h2>Gallery</h2>
+            <img src="https://via.placeholder.com/150" alt="Placeholder image 1">
+            <img src="https://via.placeholder.com/150" alt="Placeholder image 2">
+            <img src="https://via.placeholder.com/150" alt="Placeholder image 3">
+        </section>
 
-    <p><a href="about.html">Đi đến trang Giới thiệu</a></p>
-    
+        <section>
+            <h2>More Information</h2>
+            <p>Check out <a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a> to learn more about web development.</p>
+        </section>
+    </main>
 
-    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2025 My Web Page</p>
+    </footer>
+
 </body>
 </html>
